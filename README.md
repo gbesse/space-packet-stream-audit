@@ -13,11 +13,11 @@ python -m unittest discover -s tests -v
 
 ### Méthode et différence
 
-Lit les vrais six octets den-tête CCSDS et la longueur moins un, puis produit offsets et ambiguïtés modulo 16384 par APID. F Prime et CCSDSPack existent déjà ; cet outil est un témoin négatif portable, distinct du rejeu daccusés packet-custody-replay.
+Lit les vrais six octets d’en-tête CCSDS et la longueur moins un, puis produit offsets et ambiguïtés modulo 16384 par APID. F Prime et CCSDSPack existent déjà ; cet outil est un témoin négatif portable, distinct du rejeu d’accusés packet-custody-replay.
 
 ### Limites
 
-Pas de décodage secondaire, CRC, synchronisation de trame ou certification CCSDS. Un saut de compteur nest une perte que sous hypothèses explicites sans reset ni grand réordonnancement.
+Pas de décodage secondaire, CRC, synchronisation de trame ou certification CCSDS. Un saut de compteur n’est une perte que sous hypothèses explicites sans reset ni grand réordonnancement.
 
 ### Validation
 
