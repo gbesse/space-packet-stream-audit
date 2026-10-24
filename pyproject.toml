@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "space-packet-stream-audit"
+version = "0.1.0a1"
+description = "FR: Où le flux binaire de télémétrie devient-il incomplet ou ambigu ? | EN: Where does a binary telemetry stream become incomplete or ambiguous? | ES: ¿Dónde se vuelve incompleto o ambiguo un flujo binario de telemetría?"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+space-packet-stream-audit = "space_packet_stream_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["space_packet_stream_audit*"]

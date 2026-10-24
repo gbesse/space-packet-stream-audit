@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Où le flux binaire de télémétrie devient-il incomplet ou ambigu ?', 'en': 'Where does a binary telemetry stream become incomplete or ambiguous?', 'es': '¿Dónde se vuelve incompleto o ambiguo un flujo binario de telemetría?'}
